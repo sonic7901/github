@@ -10,32 +10,36 @@ struct student
 
 int main()
 {
-    cout << "Enter information of students: " << endl;
+	try {
+		cout << "Enter information of students: " << endl;
 
-    // storing information
-    for(int i = 0; i < 10; ++i)
-    {
-        s[i].roll = i+1;
-        cout << "For roll number" << s[i].roll << "," << endl;
+		// storing information
+		for(int i = 0; i < 10; ++i)
+		{
+			s[i].roll = i+1;
+			cout << "For roll number" << s[i].roll << "," << endl;
 
-        cout << "Enter name: ";
-        cin >> s[i].name;
+			cout << "Enter name: ";
+			cin >> s[i].name;
 
-        cout << "Enter marks: ";
-        cin >> s[i].marks;
+			cout << "Enter marks: ";
+			cin >> s[i].marks;
 
-        cout << endl;
-    }
+			cout << endl;
+		}
 
-    cout << "Displaying Information: " << endl;
+		cout << "Displaying Information: " << endl;
 
-    // Displaying information
-    for(int i = 0; i < 10; ++i)
-    {
-        cout << "\nRoll number: " << i+1 << endl;
-        cout << "Name: " << s[i].name << endl;
-        cout << "Marks: " << s[i].marks << endl;
-    }
-
+		// Displaying information
+		for(int i = 0; i < 10; ++i)
+		{
+			cout << "\nRoll number: " << i+1 << endl;
+			cout << "Name: " << s[i].name << endl;
+			cout << "Marks: " << s[i].marks << endl;
+		}
+		cout << "end " << endl;
+	}
+	catch(...){
+	}
     return 0;
 }

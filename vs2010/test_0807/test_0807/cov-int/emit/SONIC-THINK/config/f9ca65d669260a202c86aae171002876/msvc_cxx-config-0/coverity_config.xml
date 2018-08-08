@@ -17,16 +17,14 @@
           <comp_cxx>true</comp_cxx>
           <comp_generic>msvc</comp_generic>
           <comp_require></comp_require>
-          <id>msvc_cxx-cl-1600-f9ca65d669260a202c86aae171002876-0</id>
-          <version>1600</version>
+          <id>msvc_cxx-cl-f9ca65d669260a202c86aae171002876-0</id>
           <could_require_regen>true</could_require_regen>
           <is_compiler>true</is_compiler>
           <is_linker>true</is_linker>
           <use_mspch>true</use_mspch>
-          <target_platform>x86</target_platform>
         </compiler>
         <options>
-          <id>msvc_cxx-cl-1600-f9ca65d669260a202c86aae171002876-0</id>
+          <id>msvc_cxx-cl-f9ca65d669260a202c86aae171002876-0</id>
           <instrument_predicates>
             <insert>
               <insertion_string>/Gm- /I&quot;[[:cov_lib_header_path:]]&quot;</insertion_string>
@@ -115,17 +113,7 @@
           <prepend_arg>--no_predefined_cplusplus</prepend_arg>
           <prepend_arg>-w</prepend_arg>
           <prepend_arg>--no_predefines</prepend_arg>
-          <prepend_arg>--comp_ver</prepend_arg>
-          <prepend_arg>1600</prepend_arg>
-          <prepend_arg>--size_t_type=j</prepend_arg>
-          <prepend_arg>--ptrdiff_t_type=i</prepend_arg>
-          <prepend_arg>--type_sizes=w2x8li4s2ed8fP4</prepend_arg>
-          <prepend_arg>--type_alignments=w2x8li4s2ed8fP4</prepend_arg>
-          <prepend_arg>--char_bit_size=8</prepend_arg>
-          <prepend_arg>--enable_declspec</prepend_arg>
-          <prepend_arg>--calling_convention_group</prepend_arg>
-          <prepend_arg>default,cdecl</prepend_arg>
-          <prepend_arg>--inline_keyword</prepend_arg>
+          <prepend_arg>--no_stdarg_builtin</prepend_arg>
           <skip_arg>/E</skip_arg>
           <skip_arg>/EP</skip_arg>
           <skip_arg>/P</skip_arg>
@@ -181,6 +169,6 @@
         </options>
       </build>
     </config>
-    <md5>38bc596ccd937b8008be0706fee77771</md5>
+    <md5>92ad9263dcb71931bebc0fc350407fd4</md5>
 </coverity>
 

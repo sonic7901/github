@@ -1,21 +1,21 @@
 timer                              ms      calls
 ------------------------------------------------
-cov-build                        2138          1
+cov-build                        1935          1
   add_string_to_table               0         73
   addEmitFileName                   0          1
     addEmitFileName                 0          1
       addEmitFileName               0          1
         addEmitFileName             0          1
           addEmitFileName           0          1
-  Prepare capture                  16          1
-  Running build command          1451          1
+  Prepare capture                  15          1
+  Running build command          1279          1
   TUInfo::getPrimarySFRow           0          1
 
 activity                           ms      calls
 ------------------------------------------------
-cov-build                        2138          1
+cov-build                        1935          1
 add_string_to_table                 0         73
 addEmitFileName                     0          5
-Prepare capture                    16          1
-Running build command            1451          1
+Prepare capture                    15          1
+Running build command            1279          1
 TUInfo::getPrimarySFRow             0          1
